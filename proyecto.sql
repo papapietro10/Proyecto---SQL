@@ -319,3 +319,15 @@ INNER JOIN Productos ON Productos_Pedidos.id_producto = Productos.id;
 
 
 SELECT * FROM productos_por_pedido;
+
+# función 1
+select elrincondeldeporte.num_productos_mas_caros(20);
+
+# función 2
+select elrincondeldeporte.nuevo_cliente('Agus', 'rita', 'agusrita@gmail.com', 'Argentina');
+
+# función 3
+select elrincondeldeporte.salario_promedio_por_cargo('Gerente');
+
+# función 4
+select elrincondeldeporte.nuevo_proveedor('supply', 'argentina', '1122233444', 'supply@hotmail.com');
